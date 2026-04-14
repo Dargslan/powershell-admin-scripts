@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.UlimitCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '97dfb2d5-8f9b-4a0c-a2d7-e3c31cf03ed2'
+    GUID = '353064ed-2684-4336-9f6a-d9abbed0d9fb'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

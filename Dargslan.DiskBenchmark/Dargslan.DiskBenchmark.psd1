@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.DiskBenchmark.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '81f714ba-0f9f-452a-8f2d-9cc5bd46ec65'
+    GUID = 'bd744d9f-f3d9-416d-802a-adaa1387a93e'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

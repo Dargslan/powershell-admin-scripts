@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.PortMonitor.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '30b26518-122a-470c-8a57-59ab5a54d97e'
+    GUID = 'a62c0f0a-1014-491e-b7de-4f81d91c4b60'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.LogStats.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'dc960e07-3d3e-4305-8ae0-092d14f72cdc'
+    GUID = 'fe7507d8-3a94-47ea-8073-386915bdd932'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

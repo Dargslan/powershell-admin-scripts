@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.ProcessMonitor.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'dcab4d67-8412-498a-ae4a-aebd0ddc2599'
+    GUID = '84472ae0-e740-4f6f-81d3-e52a0e80a9a2'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

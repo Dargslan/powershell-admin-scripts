@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.SudoersAudit.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '8e9c47dc-1992-4e3f-92f5-d207b6511986'
+    GUID = '639aed41-3a41-4356-aa10-e404f861891c'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.CoredumpCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'cd845ac4-0f60-40fb-a5a5-a55a70b436db'
+    GUID = '1a83be80-a331-40e1-a189-5ff4081af807'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

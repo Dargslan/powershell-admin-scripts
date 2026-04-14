@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.MysqlHealth.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '61848f38-af55-4743-95f1-16167fee8fdb'
+    GUID = '518c1d94-3526-495b-b8a5-74681b178581'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

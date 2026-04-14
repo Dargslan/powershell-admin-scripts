@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.CronAudit.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '5252f341-619b-4ab2-8da4-fbf81829ae5d'
+    GUID = '7625a92f-ade6-4a4c-a512-37588e38a0c7'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

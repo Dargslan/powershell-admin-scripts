@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.Ipv6Audit.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '2ac8aaaf-41ca-4ab5-b469-44875b245515'
+    GUID = 'c54311ab-459f-4cdc-aebc-a7351f15b5dc'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

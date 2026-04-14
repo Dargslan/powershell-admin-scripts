@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.DnsCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '6d9e0a33-a01f-4642-9a62-8bc16b12716b'
+    GUID = '1efb89af-858a-4f91-87ab-2faa02bd473b'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

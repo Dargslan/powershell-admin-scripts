@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.KernelCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '29436f71-b35e-4771-846d-2e4c6d91dc0b'
+    GUID = 'a5d491f7-9210-48f5-80de-844d0a8b8fad'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

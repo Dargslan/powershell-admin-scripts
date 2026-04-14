@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.ApacheAnalyzer.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'd67f01da-30d2-4972-a972-d045b975c344'
+    GUID = 'b4478920-d819-4200-8bbb-72abd7f2ac3d'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

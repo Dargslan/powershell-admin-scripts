@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.NetworkLatency.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'dab53839-074b-4309-b95c-b485234ab319'
+    GUID = '51703814-695c-476b-b884-877bd0964128'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.SysctlAudit.psm1'
     ModuleVersion = '1.0.1'
-    GUID = 'eacbad90-5170-4a74-abbe-49403eda55b0'
+    GUID = 'cbdbecaa-e0a0-4eec-8bd0-7818553a1215'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

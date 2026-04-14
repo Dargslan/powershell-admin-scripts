@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.LoadAverage.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '14e7d070-faa6-49d8-995a-eaee410031a0'
+    GUID = 'aa99f038-c4b7-4ab0-bba4-34bcc86f4a2a'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

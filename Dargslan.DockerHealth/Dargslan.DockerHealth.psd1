@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.DockerHealth.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '88f4c657-30e8-479c-872b-97cc26843f3f'
+    GUID = '5abf571a-7b8d-46bb-b640-50a232d8374e'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.SwapManager.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '45a625e9-1cbc-427b-98bc-fc592943ed1e'
+    GUID = 'c8bebef4-2a4c-4008-8029-7fd6204614dc'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

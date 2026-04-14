@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.CryptAudit.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '661db6de-6102-47c3-bcb0-b2e8da7a47fc'
+    GUID = 'cf9f6da9-330a-4bca-842a-86ae0c84841a'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

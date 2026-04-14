@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.BashAlias.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'af2c85ea-e3ca-46a2-a19f-9018619b3d11'
+    GUID = '50205869-65b1-4818-91e7-3017ad0d001e'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.FirewallAudit.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '7f503a47-0167-4801-ae49-34868478d245'
+    GUID = '833247c3-1f09-48fa-92d1-89671aedb1ed'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

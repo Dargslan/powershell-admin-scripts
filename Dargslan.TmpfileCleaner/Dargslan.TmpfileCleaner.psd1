@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.TmpfileCleaner.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '4fe2e6d0-d101-4a42-8eb4-2997100fb7ad'
+    GUID = '76557132-1bea-424a-9a42-42411c64793a'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

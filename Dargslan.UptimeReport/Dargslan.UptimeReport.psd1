@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.UptimeReport.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '23e79256-fdc8-4184-999c-801c37fafb4d'
+    GUID = '9f63af36-f103-4985-b50c-7b257bd4398b'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

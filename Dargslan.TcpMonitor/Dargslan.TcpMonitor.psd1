@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.TcpMonitor.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '132e2106-fab2-4cb1-bd9f-7e2c6e813a65'
+    GUID = 'b3933689-daa3-4c9f-bf52-beb841c9217d'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

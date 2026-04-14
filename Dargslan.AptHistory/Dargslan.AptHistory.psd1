@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.AptHistory.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'b0b8a5c1-d0b4-476a-914c-7b556e1ad260'
+    GUID = '4d8e257d-246c-4483-86dc-156f751a1fd6'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

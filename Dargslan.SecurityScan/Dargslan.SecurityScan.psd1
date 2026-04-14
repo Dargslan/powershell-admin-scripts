@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.SecurityScan.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'b702a1be-7ea4-4229-a7cc-492f9eb9f3cf'
+    GUID = 'e6e0e0bf-7652-4065-8895-6c5b7223c473'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

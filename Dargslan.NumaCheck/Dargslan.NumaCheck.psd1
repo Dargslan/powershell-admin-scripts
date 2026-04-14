@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.NumaCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '58489764-f19a-45d1-a95a-251eeb595322'
+    GUID = '2031e29f-9e3f-481c-a2e8-e837ea19485a'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

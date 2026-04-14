@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.SslChecker.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '3511549d-0982-430e-ad51-7698c6848230'
+    GUID = '8539a4e9-02e3-411a-a332-9212eac0f538'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

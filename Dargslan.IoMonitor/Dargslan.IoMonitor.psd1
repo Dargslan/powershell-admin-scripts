@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.IoMonitor.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '0c157326-1894-4284-bab2-10ed9486e193'
+    GUID = '895afba3-953c-4dce-b838-41a9d9cbc79a'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

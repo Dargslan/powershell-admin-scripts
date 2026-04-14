@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.RouteCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'c251dcac-71d6-4ca8-8d5b-ffd0bb01f7e8'
+    GUID = '21ce97b0-4202-4894-b52f-9282210da103'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.DiskQuota.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'eaf8772e-2bce-4a77-8208-74175611675c'
+    GUID = '07f75c74-d423-4cea-ae1d-8322510f8416'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

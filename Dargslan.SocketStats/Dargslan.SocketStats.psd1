@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.SocketStats.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'a9bc7fa6-a480-4599-82b3-7396fa51fdf8'
+    GUID = '1a46b51c-f5d6-4bc5-9e5a-8523a769f7eb'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

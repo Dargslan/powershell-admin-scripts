@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.GitAudit.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '0ce3dc50-b5ee-4bbc-b3ef-5275a91b579a'
+    GUID = 'd20b97e3-c2d4-4834-ba0d-ed0e53ee296c'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

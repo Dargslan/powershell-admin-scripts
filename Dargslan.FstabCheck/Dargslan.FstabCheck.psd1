@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.FstabCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'ffb0673f-0d4f-418d-9299-9e3939073104'
+    GUID = 'f670b57a-40ea-4ce7-b4e9-8944baf0b31b'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

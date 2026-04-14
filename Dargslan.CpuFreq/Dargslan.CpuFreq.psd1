@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.CpuFreq.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'b44c386e-488a-4930-996e-ae8ca7926de5'
+    GUID = '874e3635-f4e6-42bb-ae99-9712d4b2106c'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

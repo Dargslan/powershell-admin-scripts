@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.LogRotate.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '37a238e3-5e61-4e0c-83e3-8be8981a0988'
+    GUID = 'ad521db0-cb15-4ef7-9f5a-6ad313f8fd71'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

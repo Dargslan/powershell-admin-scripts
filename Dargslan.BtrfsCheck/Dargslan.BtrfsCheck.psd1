@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.BtrfsCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'ab01939f-c8d6-403e-ab79-42ca91687ab4'
+    GUID = '838046df-87f4-4fe0-b201-ce4ca72c3718'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

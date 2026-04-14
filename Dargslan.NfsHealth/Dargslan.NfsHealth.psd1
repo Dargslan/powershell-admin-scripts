@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.NfsHealth.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'b6a71de6-7663-4b5e-b886-f1bb6135dec0'
+    GUID = '36e854ff-b9df-447b-b7a4-1f0968ff6704'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

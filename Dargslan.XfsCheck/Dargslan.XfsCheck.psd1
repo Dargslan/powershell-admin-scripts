@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.XfsCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'cc6d0e74-fb94-4617-9585-0222f3a894a7'
+    GUID = '9d698a02-624d-436a-9a2d-11b16befeb2c'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

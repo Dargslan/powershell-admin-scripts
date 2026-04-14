@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.SelinuxCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '5b6468fd-64c3-4b09-8cab-43a35d1cfa39'
+    GUID = 'ae1267d5-4df9-43d8-9204-57afcdca1112'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

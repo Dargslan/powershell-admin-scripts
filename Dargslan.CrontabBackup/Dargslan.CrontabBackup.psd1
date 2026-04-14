@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.CrontabBackup.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'ab3ab49d-3936-435d-9f75-c4dcd9a4192e'
+    GUID = '0ca53d9f-5a9b-4a26-8bf2-3a97afd2402f'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.Fail2banAudit.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '2044fc86-abe1-4ea1-ad05-408bc4d1e62e'
+    GUID = '0e0f69cb-ea60-4f2d-8c7b-43e15fb86dbc'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

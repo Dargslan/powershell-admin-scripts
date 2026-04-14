@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.AtScheduler.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '7a54d7ed-e416-4bb1-8692-5bae7144b765'
+    GUID = '459341e0-e764-47ea-be11-cd3d3b5fb175'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

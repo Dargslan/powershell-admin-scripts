@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.BackupMonitor.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'e7a45b8a-4d7b-4f0e-a73f-98b38f0d6493'
+    GUID = 'e166e228-1ddc-49c2-8731-2c80d383dc6a'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'
