@@ -1,0 +1,17 @@
+"""
+dargslan-win-locale-check — Windows Windows locale & regional settings checker — language, keyboard, timezone
+
+Windows system administration tool by Dargslan.
+
+Homepage: https://dargslan.com
+Free Cheat Sheets: https://dargslan.com/cheat-sheets
+Windows & DevOps Books: https://dargslan.com/books
+"""
+
+__version__ = "1.0.0"
+__author__ = "Dargslan"
+__url__ = "https://dargslan.com"
+
+from dargslan_win_locale_check.localecheck import LocaleCheck
+
+__all__ = ["LocaleCheck"]
