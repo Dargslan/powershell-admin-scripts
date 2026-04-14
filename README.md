@@ -1,13 +1,13 @@
-# 🛡️ Dargslan Windows Admin Toolkit — 120 PowerShell Modules
+# 🛡️ Dargslan Windows Admin Toolkit — 140 PowerShell Modules
 
-> **The most comprehensive Windows administration toolkit on PowerShell Gallery — 120 professional modules for system administrators, security engineers, and DevOps professionals.**
+> **The most comprehensive Windows administration toolkit on PowerShell Gallery — 140 professional modules for system administrators, security engineers, and DevOps professionals.**
 
-[![PowerShell Gallery](https://img.shields.io/badge/PowerShell%20Gallery-120%20Modules-blue)](https://www.powershellgallery.com/profiles/Dargslan)
+[![PowerShell Gallery](https://img.shields.io/badge/PowerShell%20Gallery-140%20Modules-blue)](https://www.powershellgallery.com/profiles/Dargslan)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![2026 Edition](https://img.shields.io/badge/Edition-2026-green.svg)](https://dargslan.com)
 [![Windows](https://img.shields.io/badge/Platform-Windows-0078D6.svg)](https://dargslan.com)
 
-## 🚀 Quick Install — All 120 Modules
+## 🚀 Quick Install — All 140 Modules
 
 ```powershell
 @(
@@ -58,13 +58,21 @@
     'Dargslan.WinAMSI', 'Dargslan.WinETW', 'Dargslan.WinNetworkShare',
     'Dargslan.WinCOMHijack', 'Dargslan.WinPatchTuesday', 'Dargslan.WinRansomGuard',
     'Dargslan.WinSMBSigning', 'Dargslan.WinHotfixDelta', 'Dargslan.WinMemoryForensic',
-    'Dargslan.WinTPM', 'Dargslan.WinDLPAudit'
+    'Dargslan.WinTPM', 'Dargslan.WinDLPAudit',
+    # Batch 7 — 2026 Edition: Infrastructure Monitoring & Services
+    'Dargslan.WinNPSAudit', 'Dargslan.WinStorageSpaces', 'Dargslan.WinDedup',
+    'Dargslan.WinFSRM', 'Dargslan.WinReFS', 'Dargslan.WinTimeSync',
+    'Dargslan.WinPKI', 'Dargslan.WinBGPRoute', 'Dargslan.WinSNMP',
+    'Dargslan.WinWINS', 'Dargslan.WinRDPSecurity', 'Dargslan.WinPowerBI',
+    'Dargslan.WinSCCM', 'Dargslan.WinWDS', 'Dargslan.WinADFS',
+    'Dargslan.WinNFS', 'Dargslan.WinRemoteAccess', 'Dargslan.WinSMTP',
+    'Dargslan.WinBranchCache', 'Dargslan.WinDFSR'
 ) | ForEach-Object { Install-Module -Name $_ -Scope CurrentUser -Force }
 ```
 
 ---
 
-## 📋 Complete Module Catalog (120 Modules)
+## 📋 Complete Module Catalog (140 Modules)
 
 ### 🖥️ Core System Administration (Batch 1)
 
@@ -216,6 +224,31 @@
 | 119 | [Dargslan.WinTPM](Dargslan.WinTPM/) | TPM audit — version, status, PCR, attestation, key storage | `Install-Module Dargslan.WinTPM` |
 | 120 | [Dargslan.WinDLPAudit](Dargslan.WinDLPAudit/) | DLP audit — data loss prevention, classification, endpoint | `Install-Module Dargslan.WinDLPAudit` |
 
+### 🏢 Infrastructure Monitoring & Services — 2026 Edition (Batch 7)
+
+| # | Module | Description | Install |
+|---|--------|-------------|---------|
+| 121 | [Dargslan.WinNPSAudit](Dargslan.WinNPSAudit/) | NPS/RADIUS — policies, connection requests, NAS clients | `Install-Module Dargslan.WinNPSAudit` |
+| 122 | [Dargslan.WinStorageSpaces](Dargslan.WinStorageSpaces/) | Storage Spaces — pools, virtual disks, resiliency, health | `Install-Module Dargslan.WinStorageSpaces` |
+| 123 | [Dargslan.WinDedup](Dargslan.WinDedup/) | Data Deduplication — volumes, savings ratios, jobs, schedules | `Install-Module Dargslan.WinDedup` |
+| 124 | [Dargslan.WinFSRM](Dargslan.WinFSRM/) | FSRM — quotas, file screens, classification, storage reports | `Install-Module Dargslan.WinFSRM` |
+| 125 | [Dargslan.WinReFS](Dargslan.WinReFS/) | ReFS — volumes, integrity streams, block cloning, health | `Install-Module Dargslan.WinReFS` |
+| 126 | [Dargslan.WinTimeSync](Dargslan.WinTimeSync/) | Time sync — NTP configuration, W32Time, stratum, drift | `Install-Module Dargslan.WinTimeSync` |
+| 127 | [Dargslan.WinPKI](Dargslan.WinPKI/) | PKI — certificate authority, templates, CRL, OCSP, health | `Install-Module Dargslan.WinPKI` |
+| 128 | [Dargslan.WinBGPRoute](Dargslan.WinBGPRoute/) | BGP/Routing — routing table, RRAS, BGP peers, interfaces | `Install-Module Dargslan.WinBGPRoute` |
+| 129 | [Dargslan.WinSNMP](Dargslan.WinSNMP/) | SNMP — communities, trap destinations, permitted managers | `Install-Module Dargslan.WinSNMP` |
+| 130 | [Dargslan.WinWINS](Dargslan.WinWINS/) | WINS — NetBIOS, name resolution, replication, legacy audit | `Install-Module Dargslan.WinWINS` |
+| 131 | [Dargslan.WinRDPSecurity](Dargslan.WinRDPSecurity/) | RDP security — NLA, encryption, certificate, session limits | `Install-Module Dargslan.WinRDPSecurity` |
+| 132 | [Dargslan.WinPowerBI](Dargslan.WinPowerBI/) | Power BI Gateway — service, data sources, capacity monitoring | `Install-Module Dargslan.WinPowerBI` |
+| 133 | [Dargslan.WinSCCM](Dargslan.WinSCCM/) | SCCM/MECM — client health, cache, policy, software updates | `Install-Module Dargslan.WinSCCM` |
+| 134 | [Dargslan.WinWDS](Dargslan.WinWDS/) | WDS — boot images, install images, PXE, multicast, drivers | `Install-Module Dargslan.WinWDS` |
+| 135 | [Dargslan.WinADFS](Dargslan.WinADFS/) | AD FS — federation service, relying parties, claims, certs | `Install-Module Dargslan.WinADFS` |
+| 136 | [Dargslan.WinNFS](Dargslan.WinNFS/) | NFS — server shares, client mounts, identity mapping, auth | `Install-Module Dargslan.WinNFS` |
+| 137 | [Dargslan.WinRemoteAccess](Dargslan.WinRemoteAccess/) | Remote Access VPN — RRAS, SSTP, IKEv2, RADIUS, connections | `Install-Module Dargslan.WinRemoteAccess` |
+| 138 | [Dargslan.WinSMTP](Dargslan.WinSMTP/) | SMTP — virtual servers, relay restrictions, queue, delivery | `Install-Module Dargslan.WinSMTP` |
+| 139 | [Dargslan.WinBranchCache](Dargslan.WinBranchCache/) | BranchCache — hosted/distributed mode, bandwidth savings | `Install-Module Dargslan.WinBranchCache` |
+| 140 | [Dargslan.WinDFSR](Dargslan.WinDFSR/) | DFS Replication — groups, folders, connections, backlog | `Install-Module Dargslan.WinDFSR` |
+
 ---
 
 ## 📊 Module Categories at a Glance
@@ -228,6 +261,7 @@
 | 🛠️ Developer Tools | 20 | NuGet, Chocolatey, WinGet, .NET, Java, Python, Node, Git, VS Code, IIS Crypto |
 | 🔐 Advanced Security | 20 | Kerberos, LSA, ASR, NTFS, IPSec, VPN, Device Encryption, OS Hardening, Compliance |
 | 🔍 Threat Hunting | 20 | Wi-Fi, Bluetooth, Sysmon, WMI persistence, AMSI, ETW, COM hijack, ransomware, TPM, DLP |
+| 🏢 Infrastructure Services | 20 | NPS, Storage Spaces, Dedup, FSRM, ReFS, PKI, BGP, SNMP, RDP Security, AD FS, WDS, SCCM |
 
 ## 🐍 Windows Python CLI Tools
 
@@ -265,8 +299,10 @@ pip install dargslan-linux-sysinfo dargslan-linux-firewall dargslan-linux-selinu
 - **PowerShell** 5.1+ or 7+ (Core)
 - **Windows** 10/11 or Server 2016/2019/2022/2025
 - Some modules require **Administrator** privileges
-- Server modules require corresponding Windows Server roles
+- Some modules require specific **Windows Server roles** (DHCP, DNS, AD DS, etc.)
 
 ## License
 
-MIT — (c) 2026 [Dargslan](https://dargslan.com). All rights reserved.
+**MIT** — (c) 2026 Dargslan — [dargslan.com](https://dargslan.com)
+
+*Part of the Dargslan IT Administration Ecosystem: 140 PowerShell modules + 120 Linux PyPI packages + 119 Windows Python tools*
