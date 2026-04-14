@@ -1,12 +1,13 @@
 # Dargslan Windows Admin Scripts
 
-> Professional Windows administration tools by [Dargslan](https://dargslan.com) — 40 PowerShell modules, 119 Python CLI tools, cheat sheets, and eBooks for sysadmins.
+> Professional Windows administration tools by [Dargslan](https://dargslan.com) — 60 PowerShell modules, 119 Python CLI tools, cheat sheets, and eBooks for sysadmins.
 
-[![PowerShell Gallery](https://img.shields.io/badge/PowerShell%20Gallery-Dargslan-blue)](https://www.powershellgallery.com/profiles/Dargslan)
+[![PowerShell Gallery](https://img.shields.io/badge/PowerShell%20Gallery-60%20Modules-blue)](https://www.powershellgallery.com/profiles/Dargslan)
 [![PyPI](https://img.shields.io/badge/PyPI-dargslan--win-orange)](https://pypi.org/search/?q=dargslan-win)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![2026 Edition](https://img.shields.io/badge/Edition-2026-green.svg)](https://dargslan.com)
 
-## 📦 Windows Admin Toolkit — 40 PowerShell Modules
+## 📦 Windows Admin Toolkit — 60 PowerShell Modules
 
 Professional PowerShell modules for Windows system administration. Each module is independently installable from the [PowerShell Gallery](https://www.powershellgallery.com/profiles/Dargslan).
 
@@ -40,6 +41,22 @@ Professional PowerShell modules for Windows system administration. Each module i
 | [Dargslan.WinGPOAudit](Dargslan.WinGPOAudit/) | Group Policy audit — applied GPOs, audit policies, security | `Install-Module Dargslan.WinGPOAudit` |
 | [Dargslan.WinCertMgr](Dargslan.WinCertMgr/) | Certificate management — inventory, expiry, chain validation | `Install-Module Dargslan.WinCertMgr` |
 
+### 🆕 Advanced Security — 2026 Edition
+
+| Module | Description | Install |
+|--------|-------------|---------|
+| [Dargslan.WinDefenderATP](Dargslan.WinDefenderATP/) | Defender for Endpoint — ASR rules, exploit protection, EDR status | `Install-Module Dargslan.WinDefenderATP` |
+| [Dargslan.WinDefenderFW2](Dargslan.WinDefenderFW2/) | Advanced Firewall v2 — IPsec, connection security rules, log parsing | `Install-Module Dargslan.WinDefenderFW2` |
+| [Dargslan.WinAppLocker](Dargslan.WinAppLocker/) | AppLocker policy audit — rule inventory, enforcement, event analysis | `Install-Module Dargslan.WinAppLocker` |
+| [Dargslan.WinWDAC](Dargslan.WinWDAC/) | WDAC policy audit — code integrity, Smart App Control, reputation | `Install-Module Dargslan.WinWDAC` |
+| [Dargslan.WinCredentialGuard](Dargslan.WinCredentialGuard/) | Credential Guard — VBS, HVCI, Secure Boot, TPM verification | `Install-Module Dargslan.WinCredentialGuard` |
+| [Dargslan.WinTLSAudit](Dargslan.WinTLSAudit/) | TLS/SSL audit — cipher suites, Schannel, HTTPS endpoint testing | `Install-Module Dargslan.WinTLSAudit` |
+| [Dargslan.WinSSHMgr](Dargslan.WinSSHMgr/) | OpenSSH management — sshd config, key audit, security scoring | `Install-Module Dargslan.WinSSHMgr` |
+| [Dargslan.WinWinRMMgr](Dargslan.WinWinRMMgr/) | WinRM audit — listeners, trusted hosts, authentication, security | `Install-Module Dargslan.WinWinRMMgr` |
+| [Dargslan.WinUSBGuard](Dargslan.WinUSBGuard/) | USB device security — device control, removable storage, DLP | `Install-Module Dargslan.WinUSBGuard` |
+| [Dargslan.WinLocalGPO](Dargslan.WinLocalGPO/) | Local Group Policy — security options, user rights, audit policy | `Install-Module Dargslan.WinLocalGPO` |
+| [Dargslan.WinPowerShellAudit](Dargslan.WinPowerShellAudit/) | PowerShell security — execution policy, logging, CLM, JEA audit | `Install-Module Dargslan.WinPowerShellAudit` |
+
 ### Networking
 
 | Module | Description | Install |
@@ -49,6 +66,7 @@ Professional PowerShell modules for Windows system administration. Each module i
 | [Dargslan.WinDNSClient](Dargslan.WinDNSClient/) | DNS client diagnostics — configuration, resolution, cache | `Install-Module Dargslan.WinDNSClient` |
 | [Dargslan.WinSMBMgr](Dargslan.WinSMBMgr/) | SMB share management — inventory, sessions, SMB1 detection | `Install-Module Dargslan.WinSMBMgr` |
 | [Dargslan.WinRDPMgr](Dargslan.WinRDPMgr/) | RDP management — session monitoring, security audit, NLA | `Install-Module Dargslan.WinRDPMgr` |
+| [Dargslan.WinNetworkProfiler](Dargslan.WinNetworkProfiler/) | Network profiling — adapter analysis, WiFi audit, NIC teaming 🆕 | `Install-Module Dargslan.WinNetworkProfiler` |
 
 ### Storage & Backup
 
@@ -72,6 +90,24 @@ Professional PowerShell modules for Windows system administration. Each module i
 | [Dargslan.WinWSUSMgr](Dargslan.WinWSUSMgr/) | WSUS management — update compliance, client reporting, sync | `Install-Module Dargslan.WinWSUSMgr` |
 | [Dargslan.WinSQLHealth](Dargslan.WinSQLHealth/) | SQL Server health — databases, backups, agent jobs, performance | `Install-Module Dargslan.WinSQLHealth` |
 
+### 🆕 Modern Platform — 2026 Edition
+
+| Module | Description | Install |
+|--------|-------------|---------|
+| [Dargslan.WinContainerMgr](Dargslan.WinContainerMgr/) | Docker/Container management — inventory, images, cleanup, monitoring | `Install-Module Dargslan.WinContainerMgr` |
+| [Dargslan.WinWSLMgr](Dargslan.WinWSLMgr/) | WSL management — distro inventory, config, resource monitoring | `Install-Module Dargslan.WinWSLMgr` |
+| [Dargslan.WinSandboxMgr](Dargslan.WinSandboxMgr/) | Windows Sandbox — availability, config builder, prerequisites | `Install-Module Dargslan.WinSandboxMgr` |
+| [Dargslan.WinIntuneMgr](Dargslan.WinIntuneMgr/) | Intune/MDM — enrollment status, compliance, AAD join verification | `Install-Module Dargslan.WinIntuneMgr` |
+| [Dargslan.WinAutopilot](Dargslan.WinAutopilot/) | Autopilot diagnostics — hardware hash, profile, provisioning logs | `Install-Module Dargslan.WinAutopilot` |
+| [Dargslan.WinEdgeMgr](Dargslan.WinEdgeMgr/) | Edge browser management — policies, extensions, profiles, security | `Install-Module Dargslan.WinEdgeMgr` |
+
+### Performance & Hardware
+
+| Module | Description | Install |
+|--------|-------------|---------|
+| [Dargslan.WinMemDiag](Dargslan.WinMemDiag/) | Memory diagnostics — RAM health, page file, leak detection 🆕 | `Install-Module Dargslan.WinMemDiag` |
+| [Dargslan.WinGPUMon](Dargslan.WinGPUMon/) | GPU monitoring — utilization, VRAM, drivers, multi-GPU 🆕 | `Install-Module Dargslan.WinGPUMon` |
+
 ### Updates & Time
 
 | Module | Description | Install |
@@ -93,27 +129,30 @@ Get-WinSystemReport
 # JSON output for automation
 Get-WinSystemReport -Json
 
-# Security audit with scoring
-Install-Module Dargslan.WinSecurityAudit -Scope CurrentUser
-Import-Module Dargslan.WinSecurityAudit
-Get-SecurityAudit
+# 2026 Edition — Advanced security audit
+Install-Module Dargslan.WinCredentialGuard -Scope CurrentUser
+Import-Module Dargslan.WinCredentialGuard
+Get-CredentialGuardStatus
 
-# Full network diagnostics
-Install-Module Dargslan.WinNetworkDiag -Scope CurrentUser
-Import-Module Dargslan.WinNetworkDiag
-Test-NetworkHealth
-Test-PortScan -Target 192.168.1.1
+# TLS/SSL security check
+Install-Module Dargslan.WinTLSAudit -Scope CurrentUser
+Import-Module Dargslan.WinTLSAudit
+Get-TLSAudit -TestEndpoint "example.com"
 
-# BitLocker compliance check
-Install-Module Dargslan.WinBitLocker -Scope CurrentUser
-Import-Module Dargslan.WinBitLocker
-Get-BitLockerReport
+# Container management
+Install-Module Dargslan.WinContainerMgr -Scope CurrentUser
+Import-Module Dargslan.WinContainerMgr
+Get-ContainerReport
+
+# PowerShell security audit
+Install-Module Dargslan.WinPowerShellAudit -Scope CurrentUser
+Import-Module Dargslan.WinPowerShellAudit
+Get-PowerShellAudit
 ```
 
-### Install All Modules
+### Install All 60 Modules
 
 ```powershell
-# Install all 40 Dargslan Windows Admin modules at once
 $modules = @(
     'Dargslan.WinSysInfo', 'Dargslan.WinFirewall', 'Dargslan.WinDefender',
     'Dargslan.WinUserMgmt', 'Dargslan.WinServiceMgr', 'Dargslan.WinDiskMgr',
@@ -128,7 +167,15 @@ $modules = @(
     'Dargslan.WinDHCPAudit', 'Dargslan.WinDNSServer', 'Dargslan.WinWSUSMgr',
     'Dargslan.WinSQLHealth', 'Dargslan.WinBitLocker', 'Dargslan.WinNetStat',
     'Dargslan.WinEnvAudit', 'Dargslan.WinDriverMgr', 'Dargslan.WinShadowCopy',
-    'Dargslan.WinTaskbarMgr'
+    'Dargslan.WinTaskbarMgr',
+    # 2026 Edition
+    'Dargslan.WinContainerMgr', 'Dargslan.WinSSHMgr', 'Dargslan.WinTLSAudit',
+    'Dargslan.WinWinRMMgr', 'Dargslan.WinDefenderATP', 'Dargslan.WinAppLocker',
+    'Dargslan.WinCredentialGuard', 'Dargslan.WinWSLMgr', 'Dargslan.WinSandboxMgr',
+    'Dargslan.WinWDAC', 'Dargslan.WinLocalGPO', 'Dargslan.WinMemDiag',
+    'Dargslan.WinGPUMon', 'Dargslan.WinUSBGuard', 'Dargslan.WinIntuneMgr',
+    'Dargslan.WinAutopilot', 'Dargslan.WinDefenderFW2', 'Dargslan.WinNetworkProfiler',
+    'Dargslan.WinEdgeMgr', 'Dargslan.WinPowerShellAudit'
 )
 $modules | ForEach-Object { Install-Module $_ -Scope CurrentUser -Force }
 ```
@@ -138,15 +185,8 @@ $modules | ForEach-Object { Install-Module $_ -Scope CurrentUser -Force }
 119 Windows Python CLI packages in [`python-windows-tools/`](python-windows-tools/). Each provides a command-line tool for Windows system administration tasks using PowerShell, WMI, and Win32 APIs.
 
 ```bash
-# Install any tool
 pip install dargslan-win-sysinfo
 dargslan-win-sysinfo
-
-pip install dargslan-win-firewall-audit
-dargslan-win-firewall-audit
-
-pip install dargslan-win-security-scan
-dargslan-win-security-scan
 ```
 
 See the [python-windows-tools/](python-windows-tools/) directory for all 119 available packages.
@@ -160,7 +200,7 @@ See the [python-windows-tools/](python-windows-tools/) directory for all 119 ava
 | [DevOps & Security eBooks](https://dargslan.com/books) | 210+ professional eBooks |
 | [Linux PyPI Tools (120+)](https://pypi.org/search/?q=dargslan) | Linux system admin CLI tools |
 | [Windows PyPI Tools (119)](https://pypi.org/search/?q=dargslan-win) | Windows system admin CLI tools |
-| [PowerShell Gallery (40)](https://www.powershellgallery.com/profiles/Dargslan) | Windows Admin Toolkit modules |
+| [PowerShell Gallery (60)](https://www.powershellgallery.com/profiles/Dargslan) | Windows Admin Toolkit modules |
 | [Blog](https://dargslan.com/blog) | 430+ SEO-optimized IT articles |
 
 ## Requirements
@@ -168,8 +208,9 @@ See the [python-windows-tools/](python-windows-tools/) directory for all 119 ava
 - **PowerShell 5.1+** (Windows PowerShell) or **PowerShell 7+** (PowerShell Core)
 - **Windows 10/11** or **Windows Server 2016+**
 - Some modules require **Administrator** privileges for full data access
-- Server role modules (AD, DHCP, DNS, IIS, Hyper-V, WSUS, SQL) require the corresponding role/feature installed
+- Server role modules (AD, DHCP, DNS, IIS, Hyper-V, WSUS, SQL) require the corresponding role/feature
+- 2026 Edition modules may require Windows 11 23H2+ for full feature support
 
 ## License
 
-MIT License — (c) 2025 Dargslan — [dargslan.com](https://dargslan.com)
+MIT License — (c) 2025-2026 Dargslan — [dargslan.com](https://dargslan.com)
