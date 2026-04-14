@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.ModprobeCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'ffcc8779-8587-43e8-bea5-f93b7749bb5e'
+    GUID = 'b7a75c78-8106-4a91-b16f-bd001bd94329'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

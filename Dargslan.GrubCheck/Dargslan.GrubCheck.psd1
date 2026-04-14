@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.GrubCheck.psm1'
     ModuleVersion = '1.0.1'
-    GUID = '6b9ef66c-a0a4-4121-a7e0-fba7e6651a75'
+    GUID = '00ce13dd-db78-4968-a1ca-175cc71c21e7'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.BandwidthMonitor.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '9ae9d95e-e011-4ae9-ba11-11f11bfac379'
+    GUID = 'cf0edf69-6a7f-4411-a09b-ac0d270a4d89'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

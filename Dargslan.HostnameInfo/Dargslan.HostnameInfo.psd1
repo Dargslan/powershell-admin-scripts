@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.HostnameInfo.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '05c0fde0-abc0-4c93-8162-b1335ffd8118'
+    GUID = 'ce568668-54e5-4d08-b733-8d0c6d6d1294'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

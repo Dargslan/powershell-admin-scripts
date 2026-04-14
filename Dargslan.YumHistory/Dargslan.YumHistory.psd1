@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.YumHistory.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '82e5af93-2f23-4342-82ac-49f738199a00'
+    GUID = '950ec559-b56a-41f0-9cff-dbba8dd5687c'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

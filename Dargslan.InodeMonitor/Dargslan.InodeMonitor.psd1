@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.InodeMonitor.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'c49d49dd-2208-4b70-b09f-5653c63c4fe5'
+    GUID = 'b2ba20ec-c72f-4ccd-b04e-5dbb5c66a9df'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

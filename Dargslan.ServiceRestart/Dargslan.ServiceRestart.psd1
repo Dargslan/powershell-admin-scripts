@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.ServiceRestart.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '2a546e22-2fa7-45cf-abea-07555690c2d1'
+    GUID = '26edda73-9628-4c49-94bb-02fed4949761'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.BridgeMonitor.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '973a052c-0a4a-4e10-b60f-1cfa99471a76'
+    GUID = 'ec4c3413-54ba-4d97-a099-7289b7b18523'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

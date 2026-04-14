@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.DiskHealth.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '47d33893-e026-48f5-81eb-97a1edf95783'
+    GUID = 'ac83671e-aee7-4a95-8eb2-01fb70fd6fe3'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

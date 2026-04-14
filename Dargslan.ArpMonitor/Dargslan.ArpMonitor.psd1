@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.ArpMonitor.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '49f73d3a-5139-45fb-ae7d-aea57f11b5fe'
+    GUID = '4ef3fa75-5e96-4eff-91cc-66914a3f222e'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

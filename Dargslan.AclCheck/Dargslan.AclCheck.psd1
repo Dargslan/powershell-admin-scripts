@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.AclCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'dfeceecc-b836-46ba-b4af-9915c9674c73'
+    GUID = 'd510b291-a3ba-4544-8ce9-3c7f9e28db70'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

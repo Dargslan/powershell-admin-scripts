@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.LvmCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'aade47ff-4f28-4bf3-a665-83a08702944c'
+    GUID = '6ec72fd5-ed64-459a-9305-7d0a8277608a'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

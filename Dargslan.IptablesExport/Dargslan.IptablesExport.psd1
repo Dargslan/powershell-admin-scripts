@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.IptablesExport.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'd5374f44-a0ae-469a-8e5f-d9766e30d7e0'
+    GUID = 'afe32e80-3560-479e-8e40-4824e6f4073c'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

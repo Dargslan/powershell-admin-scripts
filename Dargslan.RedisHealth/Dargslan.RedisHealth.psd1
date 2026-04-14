@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.RedisHealth.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '2e930378-e92c-4059-a5de-7b4e97715eac'
+    GUID = '055e1758-d61b-4f79-8afa-7d1699c88a0d'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

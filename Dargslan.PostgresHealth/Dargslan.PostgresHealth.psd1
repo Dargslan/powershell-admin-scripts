@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.PostgresHealth.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '48a88dd4-d997-4a71-8bec-940fe762992d'
+    GUID = '77dd22e0-23ea-4c32-af09-754c8a1c4808'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

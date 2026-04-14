@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.TimezoneInfo.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '3ae80f14-2812-4455-a11c-8c9f3b0e6650'
+    GUID = 'dc064496-6106-4677-9f49-25c91420d5d1'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

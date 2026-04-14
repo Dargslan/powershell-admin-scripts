@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.ResolvCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '1949657f-a799-424f-82e7-ad8cacbfc857'
+    GUID = 'e9dcc465-a656-49de-a746-2a11a2d8b445'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

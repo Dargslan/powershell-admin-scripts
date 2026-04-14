@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.BondingCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'e3942b19-1af6-4b55-9021-0920507e5d68'
+    GUID = '4f13e3bf-266c-465e-8fac-d355951953cd'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

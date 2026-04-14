@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.DiskCleaner.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '00090e6a-68a0-43fd-801e-e3f916cc4d7c'
+    GUID = 'fa1e6817-c8ad-41a8-b5af-ecdad6a43d01'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

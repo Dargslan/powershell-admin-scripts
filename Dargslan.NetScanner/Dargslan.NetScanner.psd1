@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.NetScanner.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '982891fc-17a4-436e-bc07-e576c6ff4cb4'
+    GUID = 'bb946e14-9f44-4030-86af-ef75da787ee1'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

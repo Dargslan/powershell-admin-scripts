@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.CronParser.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '8566c2c5-0c17-4d6f-bb96-79aa02e5e79a'
+    GUID = '8251a88c-3d6d-493c-b624-a653b9f00c23'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

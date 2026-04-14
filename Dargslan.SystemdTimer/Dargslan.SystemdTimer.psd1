@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.SystemdTimer.psm1'
     ModuleVersion = '1.0.1'
-    GUID = 'bd5b1a23-d25c-4752-826d-e23250ad4c8e'
+    GUID = 'a94dd20f-ce43-4e27-983f-63c106492ff5'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

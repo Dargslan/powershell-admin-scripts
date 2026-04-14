@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.CertManager.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '8303c8aa-56ad-45bd-bc78-9a85d4f472f7'
+    GUID = '390a5d27-0190-4aae-981c-978e030a2e74'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

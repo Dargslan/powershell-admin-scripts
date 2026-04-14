@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.EthtoolCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '79a79251-b41d-4c75-85ca-6053fda678a1'
+    GUID = '791672a8-1120-4e28-a0bc-235939ef34e9'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

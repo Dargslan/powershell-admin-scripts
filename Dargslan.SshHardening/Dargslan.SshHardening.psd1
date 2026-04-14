@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.SshHardening.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'd812b008-2f9c-44d7-b03c-96beadcffc2c'
+    GUID = '0a477f3a-8cb9-49a0-a3e8-eee21336f46a'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

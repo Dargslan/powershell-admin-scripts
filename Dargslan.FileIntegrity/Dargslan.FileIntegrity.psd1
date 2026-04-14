@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.FileIntegrity.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'b42e5335-a1e4-46f2-8ad9-2a74227c0d08'
+    GUID = '32986b09-2386-4dd1-9719-0ce7ff07adde'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

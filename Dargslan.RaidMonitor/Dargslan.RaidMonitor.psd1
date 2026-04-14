@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.RaidMonitor.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'badd48f8-f302-43ba-bf7c-4cc535dee674'
+    GUID = '32f7ba14-74c2-4527-9a37-aaab419dc843'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.EntropyCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '4714a8c6-0926-4bc5-ba81-a57748a13c80'
+    GUID = '5853bf4b-b315-450a-ac73-2eb6ff6e7021'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

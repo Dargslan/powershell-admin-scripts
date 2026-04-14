@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.LocaleCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '682b774c-a1b1-4f18-a0a3-0cc1f373f905'
+    GUID = '93831692-c6ff-4e1c-927b-625db1cf68a7'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

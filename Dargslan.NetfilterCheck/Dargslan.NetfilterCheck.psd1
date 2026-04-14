@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.NetfilterCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '6e238987-3274-48b3-8c2c-53764223c52d'
+    GUID = 'ca161c2d-560e-4746-9903-3f7f4180411b'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

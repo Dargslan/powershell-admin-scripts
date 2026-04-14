@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.DmesgAnalyzer.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '1b6a92e9-2f62-4cfb-95ed-5f7bd1d53431'
+    GUID = '005e5138-d758-48d1-a7a9-be645d108e02'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

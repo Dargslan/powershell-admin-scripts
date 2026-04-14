@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.DnsResolver.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '39c96b6b-cc06-4665-aab6-d93878ea7026'
+    GUID = 'ee59da96-c4c3-4638-9d73-bb9f052b858a'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

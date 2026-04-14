@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.SnmpCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '450d5d6e-666f-461e-8158-334914724433'
+    GUID = '37d1c8bb-bbf8-421b-9844-b0d3cd58e913'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

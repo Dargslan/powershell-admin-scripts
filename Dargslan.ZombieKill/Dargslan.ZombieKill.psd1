@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.ZombieKill.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '227f6792-7704-4424-a93e-8700de8d93b0'
+    GUID = '63614dad-9f43-4b45-92cf-f8422dc16d9c'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

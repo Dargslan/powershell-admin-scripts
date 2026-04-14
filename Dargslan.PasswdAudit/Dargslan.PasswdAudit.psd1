@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.PasswdAudit.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'af5c6ac1-7824-4104-8953-97feefb75e38'
+    GUID = '3073717b-b13d-4dd4-9c8e-799a72b0ea8e'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

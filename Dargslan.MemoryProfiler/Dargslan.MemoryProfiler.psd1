@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.MemoryProfiler.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '811b40cb-d582-4799-b473-a4ea9431ca06'
+    GUID = 'ff5d76a0-8222-44df-9601-8ac30826452d'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

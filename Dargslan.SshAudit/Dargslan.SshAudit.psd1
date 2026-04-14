@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.SshAudit.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '80b8555a-543e-43c0-92af-adab4d150f1f'
+    GUID = 'ce05fa18-8174-4c52-84f4-0777b0a4675c'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

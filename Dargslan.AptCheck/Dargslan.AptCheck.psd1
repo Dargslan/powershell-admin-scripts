@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.AptCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '61e49a60-9710-4d24-86cf-93b9d363e28c'
+    GUID = '74cfa00e-08b5-4e2c-9ce8-7467b58e1cf6'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

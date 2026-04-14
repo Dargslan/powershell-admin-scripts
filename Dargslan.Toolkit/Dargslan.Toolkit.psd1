@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.Toolkit.psm1'
     ModuleVersion = '1.20.1'
-    GUID = '9be7f995-7398-48ff-9ab9-a9abdf624dda'
+    GUID = 'f3fe8ad5-9497-4ff6-89a7-aa1cdd27931b'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

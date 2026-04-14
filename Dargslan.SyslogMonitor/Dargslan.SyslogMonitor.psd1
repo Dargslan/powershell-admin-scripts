@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.SyslogMonitor.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '3bfba4cf-cd0c-47a5-b786-ec9dabcf9c7a'
+    GUID = '830ea2ae-cac8-44fb-a703-92ec692d8b57'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

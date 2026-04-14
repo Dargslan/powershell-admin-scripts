@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.ApparmorCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '8ae0d5e1-943a-4e0f-b76d-230229aaa73a'
+    GUID = 'bcb2b764-2091-4ac9-82e1-c379040320fe'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

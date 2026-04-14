@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.NtpCheck.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '4e3c675d-da05-4e41-bc23-d4af95fb384d'
+    GUID = '9320bc0a-6727-4afd-a530-be1b9bdf3710'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

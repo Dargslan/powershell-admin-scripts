@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.LoginTracker.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'd88b4dbb-e21f-4e9b-89f6-904837253a43'
+    GUID = '30b25291-b50e-4ab1-bb0b-89921638844a'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

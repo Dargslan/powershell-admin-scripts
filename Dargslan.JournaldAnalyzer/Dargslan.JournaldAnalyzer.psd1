@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.JournaldAnalyzer.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '765a848f-844f-4529-83d7-abb1989a2ff4'
+    GUID = '62e0a113-cf56-48cd-9de3-ee175d8e1318'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

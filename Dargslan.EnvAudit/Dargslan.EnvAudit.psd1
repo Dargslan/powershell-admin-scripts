@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.EnvAudit.psm1'
     ModuleVersion = '1.0.1'
-    GUID = 'ba01f084-079c-48ad-8b9d-f2d82f7fbfae'
+    GUID = '8f4c7690-7ef8-49d4-a5d5-943571ebfabb'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

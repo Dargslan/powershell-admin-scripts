@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.MotdManager.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '976f1ac0-39b6-46b9-a9fa-873ac85f57fb'
+    GUID = '805a2a66-fb80-4e11-8c07-10d6193ca513'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

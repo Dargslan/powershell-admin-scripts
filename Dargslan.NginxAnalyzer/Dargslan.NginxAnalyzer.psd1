@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.NginxAnalyzer.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '66ef76ae-b161-4f2a-954f-2b2f5fd5fecf'
+    GUID = '85e9c4bd-e3a2-4c5e-8332-f2b3bbe26aec'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

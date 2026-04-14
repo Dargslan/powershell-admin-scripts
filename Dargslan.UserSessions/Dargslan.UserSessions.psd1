@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.UserSessions.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '607b16b4-36f0-4368-a64c-0f4d220c8c94'
+    GUID = '506c5bde-a910-4b4e-b551-7dbcac681a9d'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

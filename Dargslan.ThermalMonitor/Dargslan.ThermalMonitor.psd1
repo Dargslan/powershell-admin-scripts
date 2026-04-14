@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.ThermalMonitor.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'cf60e02a-c87b-4d03-9759-93f8836d968f'
+    GUID = '372dbbf2-ab3f-42c5-ab50-803fdc4a6095'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

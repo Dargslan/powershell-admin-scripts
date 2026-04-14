@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.ProcessKiller.psm1'
     ModuleVersion = '1.0.0'
-    GUID = '23c3e25a-9752-429c-9b14-5585fa9001d1'
+    GUID = '3135434c-791c-4c77-9c83-1e55cfdaa6ab'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'

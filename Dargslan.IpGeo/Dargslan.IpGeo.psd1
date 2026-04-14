@@ -1,7 +1,7 @@
 @{
     RootModule = 'Dargslan.IpGeo.psm1'
     ModuleVersion = '1.0.0'
-    GUID = 'ce112eff-64c0-4c4e-be11-ec5a5f36c280'
+    GUID = '2bc449f7-aede-40e4-af08-360f4bd84860'
     Author = 'Dargslan'
     CompanyName = 'Dargslan'
     Copyright = '(c) 2025 Dargslan. All rights reserved.'
