@@ -1,6 +1,6 @@
 # Dargslan Windows Admin Scripts
 
-> Professional Windows administration tools by [Dargslan](https://dargslan.com) — 60 PowerShell modules, 119 Python CLI tools, cheat sheets, and eBooks for sysadmins.
+> Professional Windows administration tools by [Dargslan](https://dargslan.com) — 80 PowerShell modules, 119 Python CLI tools, cheat sheets, and eBooks for sysadmins.
 
 [![PowerShell Gallery](https://img.shields.io/badge/PowerShell%20Gallery-60%20Modules-blue)](https://www.powershellgallery.com/profiles/Dargslan)
 [![PyPI](https://img.shields.io/badge/PyPI-dargslan--win-orange)](https://pypi.org/search/?q=dargslan-win)
@@ -150,7 +150,7 @@ Import-Module Dargslan.WinPowerShellAudit
 Get-PowerShellAudit
 ```
 
-### Install All 60 Modules
+### Install All 80 Modules
 
 ```powershell
 $modules = @(
@@ -175,10 +175,48 @@ $modules = @(
     'Dargslan.WinWDAC', 'Dargslan.WinLocalGPO', 'Dargslan.WinMemDiag',
     'Dargslan.WinGPUMon', 'Dargslan.WinUSBGuard', 'Dargslan.WinIntuneMgr',
     'Dargslan.WinAutopilot', 'Dargslan.WinDefenderFW2', 'Dargslan.WinNetworkProfiler',
-    'Dargslan.WinEdgeMgr', 'Dargslan.WinPowerShellAudit'
+    'Dargslan.WinEdgeMgr', 'Dargslan.WinPowerShellAudit',
+    # Batch 4 — 2026 Edition
+    'Dargslan.WinNuGetAudit', 'Dargslan.WinChocolateyAudit', 'Dargslan.WinWinGetAudit',
+    'Dargslan.WinVSSAdmin', 'Dargslan.WinSMARTHealth', 'Dargslan.WinWindowsFeatures',
+    'Dargslan.WinDotNetRuntime', 'Dargslan.WinJavaAudit', 'Dargslan.WinPythonAudit',
+    'Dargslan.WinNodeJSAudit', 'Dargslan.WinGitAudit', 'Dargslan.WinVSCodeAudit',
+    'Dargslan.WinIISCryptoAudit', 'Dargslan.WinSecureBootAudit', 'Dargslan.WinLogonAudit',
+    'Dargslan.WinSMTPRelay', 'Dargslan.WinSNMPAudit', 'Dargslan.WinSharedFolders',
+    'Dargslan.WinRecoveryEnv', 'Dargslan.WinBrowserSec'
 )
 $modules | ForEach-Object { Install-Module $_ -Scope CurrentUser -Force }
 ```
+
+### 🆕 Developer Tools & Runtimes — 2026 Edition
+
+| Module | Description | Install |
+|--------|-------------|----------|
+| [Dargslan.WinNuGetAudit](Dargslan.WinNuGetAudit/) | NuGet/.NET package audit, SDK versions, vulnerability scan | `Install-Module Dargslan.WinNuGetAudit` |
+| [Dargslan.WinChocolateyAudit](Dargslan.WinChocolateyAudit/) | Chocolatey package manager — packages, sources, features | `Install-Module Dargslan.WinChocolateyAudit` |
+| [Dargslan.WinWinGetAudit](Dargslan.WinWinGetAudit/) | Windows Package Manager (winget) — apps, updates, sources | `Install-Module Dargslan.WinWinGetAudit` |
+| [Dargslan.WinDotNetRuntime](Dargslan.WinDotNetRuntime/) | .NET Framework/Runtime audit — versions, CLR, assemblies | `Install-Module Dargslan.WinDotNetRuntime` |
+| [Dargslan.WinJavaAudit](Dargslan.WinJavaAudit/) | Java JDK/JRE audit — versions, JAVA_HOME, installations | `Install-Module Dargslan.WinJavaAudit` |
+| [Dargslan.WinPythonAudit](Dargslan.WinPythonAudit/) | Python installation audit — versions, pip, PATH validation | `Install-Module Dargslan.WinPythonAudit` |
+| [Dargslan.WinNodeJSAudit](Dargslan.WinNodeJSAudit/) | Node.js/npm audit — versions, global packages, nvm, config | `Install-Module Dargslan.WinNodeJSAudit` |
+| [Dargslan.WinGitAudit](Dargslan.WinGitAudit/) | Git audit — config, SSH keys, credential helpers, aliases | `Install-Module Dargslan.WinGitAudit` |
+| [Dargslan.WinVSCodeAudit](Dargslan.WinVSCodeAudit/) | VS Code audit — extensions, settings, workspace trust | `Install-Module Dargslan.WinVSCodeAudit` |
+
+### 🆕 System Diagnostics — 2026 Edition
+
+| Module | Description | Install |
+|--------|-------------|----------|
+| [Dargslan.WinSMARTHealth](Dargslan.WinSMARTHealth/) | Disk SMART health — temperature, wear, failure prediction | `Install-Module Dargslan.WinSMARTHealth` |
+| [Dargslan.WinVSSAdmin](Dargslan.WinVSSAdmin/) | VSS administration — writers, providers, shadow storage | `Install-Module Dargslan.WinVSSAdmin` |
+| [Dargslan.WinWindowsFeatures](Dargslan.WinWindowsFeatures/) | Windows Features/Roles — installed, available, capabilities | `Install-Module Dargslan.WinWindowsFeatures` |
+| [Dargslan.WinSecureBootAudit](Dargslan.WinSecureBootAudit/) | Secure Boot/UEFI — boot chain, DBX, firmware security | `Install-Module Dargslan.WinSecureBootAudit` |
+| [Dargslan.WinLogonAudit](Dargslan.WinLogonAudit/) | Logon security — history, failed attempts, lockouts | `Install-Module Dargslan.WinLogonAudit` |
+| [Dargslan.WinRecoveryEnv](Dargslan.WinRecoveryEnv/) | Recovery Environment — WinRE, restore points, reset | `Install-Module Dargslan.WinRecoveryEnv` |
+| [Dargslan.WinBrowserSec](Dargslan.WinBrowserSec/) | Browser security — Chrome/Edge/Firefox versions, policies | `Install-Module Dargslan.WinBrowserSec` |
+| [Dargslan.WinIISCryptoAudit](Dargslan.WinIISCryptoAudit/) | IIS Crypto — cipher suites, protocol compliance, best practices | `Install-Module Dargslan.WinIISCryptoAudit` |
+| [Dargslan.WinSMTPRelay](Dargslan.WinSMTPRelay/) | SMTP relay audit — service, queue, relay restrictions | `Install-Module Dargslan.WinSMTPRelay` |
+| [Dargslan.WinSNMPAudit](Dargslan.WinSNMPAudit/) | SNMP audit — community strings, traps, permitted managers | `Install-Module Dargslan.WinSNMPAudit` |
+| [Dargslan.WinSharedFolders](Dargslan.WinSharedFolders/) | Shared folders — permissions, open files, sessions, hidden | `Install-Module Dargslan.WinSharedFolders` |
 
 ## 🐍 Windows Python CLI Tools (119 packages)
 
@@ -200,7 +238,7 @@ See the [python-windows-tools/](python-windows-tools/) directory for all 119 ava
 | [DevOps & Security eBooks](https://dargslan.com/books) | 210+ professional eBooks |
 | [Linux PyPI Tools (120+)](https://pypi.org/search/?q=dargslan) | Linux system admin CLI tools |
 | [Windows PyPI Tools (119)](https://pypi.org/search/?q=dargslan-win) | Windows system admin CLI tools |
-| [PowerShell Gallery (60)](https://www.powershellgallery.com/profiles/Dargslan) | Windows Admin Toolkit modules |
+| [PowerShell Gallery (80)](https://www.powershellgallery.com/profiles/Dargslan) | Windows Admin Toolkit modules |
 | [Blog](https://dargslan.com/blog) | 430+ SEO-optimized IT articles |
 
 ## Requirements
