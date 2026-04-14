@@ -1,13 +1,13 @@
-# 🛡️ Dargslan Windows Admin Toolkit — 100 PowerShell Modules
+# 🛡️ Dargslan Windows Admin Toolkit — 120 PowerShell Modules
 
-> **The most comprehensive Windows administration toolkit on PowerShell Gallery — 100 professional modules for system administrators, security engineers, and DevOps professionals.**
+> **The most comprehensive Windows administration toolkit on PowerShell Gallery — 120 professional modules for system administrators, security engineers, and DevOps professionals.**
 
-[![PowerShell Gallery](https://img.shields.io/badge/PowerShell%20Gallery-100%20Modules-blue)](https://www.powershellgallery.com/profiles/Dargslan)
+[![PowerShell Gallery](https://img.shields.io/badge/PowerShell%20Gallery-120%20Modules-blue)](https://www.powershellgallery.com/profiles/Dargslan)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![2026 Edition](https://img.shields.io/badge/Edition-2026-green.svg)](https://dargslan.com)
 [![Windows](https://img.shields.io/badge/Platform-Windows-0078D6.svg)](https://dargslan.com)
 
-## 🚀 Quick Install — All 100 Modules
+## 🚀 Quick Install — All 120 Modules
 
 ```powershell
 @(
@@ -50,13 +50,21 @@
     'Dargslan.WinRSAT', 'Dargslan.WinNLAStatus', 'Dargslan.WinAuditLogConfig',
     'Dargslan.WinRemediation', 'Dargslan.WinOSHarden', 'Dargslan.WinProxyConfig',
     'Dargslan.WinIPSec', 'Dargslan.WinVPNConfig', 'Dargslan.WinDeviceEncryption',
-    'Dargslan.WinClipboardAudit', 'Dargslan.WinEventForward'
+    'Dargslan.WinClipboardAudit', 'Dargslan.WinEventForward',
+    # Batch 6 — 2026 Edition: Threat Hunting & Forensics
+    'Dargslan.WinWiFiSec', 'Dargslan.WinBluetooth', 'Dargslan.WinPrintNightmare',
+    'Dargslan.WinDNSSec', 'Dargslan.WinSysmonConfig', 'Dargslan.WinWMIPersis',
+    'Dargslan.WinAutorunAudit', 'Dargslan.WinCredentialMgr', 'Dargslan.WinThreatHunt',
+    'Dargslan.WinAMSI', 'Dargslan.WinETW', 'Dargslan.WinNetworkShare',
+    'Dargslan.WinCOMHijack', 'Dargslan.WinPatchTuesday', 'Dargslan.WinRansomGuard',
+    'Dargslan.WinSMBSigning', 'Dargslan.WinHotfixDelta', 'Dargslan.WinMemoryForensic',
+    'Dargslan.WinTPM', 'Dargslan.WinDLPAudit'
 ) | ForEach-Object { Install-Module -Name $_ -Scope CurrentUser -Force }
 ```
 
 ---
 
-## 📋 Complete Module Catalog (100 Modules)
+## 📋 Complete Module Catalog (120 Modules)
 
 ### 🖥️ Core System Administration (Batch 1)
 
@@ -183,21 +191,47 @@
 | 99 | [Dargslan.WinClipboardAudit](Dargslan.WinClipboardAudit/) | Clipboard security — history, cloud sync, data leakage | `Install-Module Dargslan.WinClipboardAudit` |
 | 100 | [Dargslan.WinEventForward](Dargslan.WinEventForward/) | Event Forwarding — WEF subscriptions, collector, WinRM | `Install-Module Dargslan.WinEventForward` |
 
+### 🔍 Threat Hunting & Forensics — 2026 Edition (Batch 6)
+
+| # | Module | Description | Install |
+|---|--------|-------------|---------|
+| 101 | [Dargslan.WinWiFiSec](Dargslan.WinWiFiSec/) | Wi-Fi security — profiles, encryption, open networks, WPA | `Install-Module Dargslan.WinWiFiSec` |
+| 102 | [Dargslan.WinBluetooth](Dargslan.WinBluetooth/) | Bluetooth audit — paired devices, drivers, service, policy | `Install-Module Dargslan.WinBluetooth` |
+| 103 | [Dargslan.WinPrintNightmare](Dargslan.WinPrintNightmare/) | Print Spooler security — PrintNightmare mitigations, Point&Print | `Install-Module Dargslan.WinPrintNightmare` |
+| 104 | [Dargslan.WinDNSSec](Dargslan.WinDNSSec/) | DNS security — DNSSEC, DNS-over-HTTPS, cache defense | `Install-Module Dargslan.WinDNSSec` |
+| 105 | [Dargslan.WinSysmonConfig](Dargslan.WinSysmonConfig/) | Sysmon audit — config, version, rules, event coverage | `Install-Module Dargslan.WinSysmonConfig` |
+| 106 | [Dargslan.WinWMIPersis](Dargslan.WinWMIPersis/) | WMI persistence — event subscriptions, backdoor hunting | `Install-Module Dargslan.WinWMIPersis` |
+| 107 | [Dargslan.WinAutorunAudit](Dargslan.WinAutorunAudit/) | Autorun audit — Run keys, startup, scheduled tasks, shell | `Install-Module Dargslan.WinAutorunAudit` |
+| 108 | [Dargslan.WinCredentialMgr](Dargslan.WinCredentialMgr/) | Credential Manager — stored creds, Vault, DPAPI keys | `Install-Module Dargslan.WinCredentialMgr` |
+| 109 | [Dargslan.WinThreatHunt](Dargslan.WinThreatHunt/) | Threat hunting — suspicious processes, IOCs, unsigned DLLs | `Install-Module Dargslan.WinThreatHunt` |
+| 110 | [Dargslan.WinAMSI](Dargslan.WinAMSI/) | AMSI audit — providers, bypass detection, script scanning | `Install-Module Dargslan.WinAMSI` |
+| 111 | [Dargslan.WinETW](Dargslan.WinETW/) | ETW audit — trace sessions, providers, tamper detection | `Install-Module Dargslan.WinETW` |
+| 112 | [Dargslan.WinNetworkShare](Dargslan.WinNetworkShare/) | Network share security — null sessions, anonymous access | `Install-Module Dargslan.WinNetworkShare` |
+| 113 | [Dargslan.WinCOMHijack](Dargslan.WinCOMHijack/) | COM hijack detection — orphaned CLSIDs, DLL side-loading | `Install-Module Dargslan.WinCOMHijack` |
+| 114 | [Dargslan.WinPatchTuesday](Dargslan.WinPatchTuesday/) | Patch Tuesday — KB analysis, missing patches, compliance | `Install-Module Dargslan.WinPatchTuesday` |
+| 115 | [Dargslan.WinRansomGuard](Dargslan.WinRansomGuard/) | Ransomware protection — Controlled Folder Access, defense | `Install-Module Dargslan.WinRansomGuard` |
+| 116 | [Dargslan.WinSMBSigning](Dargslan.WinSMBSigning/) | SMB signing — encryption, relay defense, dialect audit | `Install-Module Dargslan.WinSMBSigning` |
+| 117 | [Dargslan.WinHotfixDelta](Dargslan.WinHotfixDelta/) | Hotfix delta — patch gaps, superseded, servicing stack | `Install-Module Dargslan.WinHotfixDelta` |
+| 118 | [Dargslan.WinMemoryForensic](Dargslan.WinMemoryForensic/) | Memory forensics — injected threads, hollow processes, DLLs | `Install-Module Dargslan.WinMemoryForensic` |
+| 119 | [Dargslan.WinTPM](Dargslan.WinTPM/) | TPM audit — version, status, PCR, attestation, key storage | `Install-Module Dargslan.WinTPM` |
+| 120 | [Dargslan.WinDLPAudit](Dargslan.WinDLPAudit/) | DLP audit — data loss prevention, classification, endpoint | `Install-Module Dargslan.WinDLPAudit` |
+
 ---
 
 ## 📊 Module Categories at a Glance
 
-| Category | Count | Modules |
-|----------|-------|---------|
-| 🖥️ Core System | 20 | SysInfo, Firewall, Defender, Users, Services, Disk, Network, EventLog, Updates, PerfMon, Backup, Security, Certs, Scheduler, Process, RDP, SMB, DNS, Time, Boot |
-| 🏗️ Infrastructure | 20 | Registry, GPO, Power, Print, Hyper-V, IIS, WMI, Storage, Cluster, AD, DHCP, DNS Server, WSUS, SQL, BitLocker, NetStat, Env, Driver, Shadow, Taskbar |
-| 🔒 Security & Cloud | 20 | Container, SSH, TLS, WinRM, ATP, AppLocker, CredGuard, WSL, Sandbox, WDAC, LocalGPO, MemDiag, GPU, USB, Intune, Autopilot, DefenderFW2, NetProfiler, Edge, PSAudit |
-| 🛠️ Developer Tools | 20 | NuGet, Chocolatey, WinGet, VSS, SMART, Features, .NET, Java, Python, Node, Git, VSCode, IISCrypto, SecureBoot, Logon, SMTP, SNMP, SharedFolders, Recovery, Browser |
-| 🔐 Advanced Security | 20 | Kerberos, LSA, PowerPlan, Locale, Token, DCOM, ASR, NTFS, WSB, RSAT, NLA, AuditLog, Remediation, OSHarden, Proxy, IPSec, VPN, Encryption, Clipboard, EventForward |
+| Category | Count | Focus |
+|----------|-------|-------|
+| 🖥️ Core System | 20 | System info, firewall, defender, users, services, disk, network, events, updates, performance |
+| 🏗️ Infrastructure | 20 | Registry, GPO, Hyper-V, IIS, AD, DHCP, DNS Server, WSUS, SQL, BitLocker, clusters |
+| 🔒 Security & Cloud | 20 | Containers, SSH, TLS, WinRM, ATP, AppLocker, Credential Guard, WSL, WDAC, Intune |
+| 🛠️ Developer Tools | 20 | NuGet, Chocolatey, WinGet, .NET, Java, Python, Node, Git, VS Code, IIS Crypto |
+| 🔐 Advanced Security | 20 | Kerberos, LSA, ASR, NTFS, IPSec, VPN, Device Encryption, OS Hardening, Compliance |
+| 🔍 Threat Hunting | 20 | Wi-Fi, Bluetooth, Sysmon, WMI persistence, AMSI, ETW, COM hijack, ransomware, TPM, DLP |
 
 ## 🐍 Windows Python CLI Tools
 
-We also maintain **119 Windows Python CLI packages** on PyPI — Windows equivalents of our Linux tools:
+**119 Windows Python CLI packages** on PyPI:
 
 ```bash
 pip install dargslan-win-sysinfo dargslan-win-firewall dargslan-win-defender
@@ -207,7 +241,7 @@ pip install dargslan-win-sysinfo dargslan-win-firewall dargslan-win-defender
 
 ## 🐧 Linux CLI Tools
 
-**120 Linux CLI tools** on PyPI for Ubuntu/Debian/Fedora/Arch:
+**120 Linux CLI tools** on PyPI:
 
 ```bash
 pip install dargslan-linux-sysinfo dargslan-linux-firewall dargslan-linux-selinux
@@ -231,7 +265,7 @@ pip install dargslan-linux-sysinfo dargslan-linux-firewall dargslan-linux-selinu
 - **PowerShell** 5.1+ or 7+ (Core)
 - **Windows** 10/11 or Server 2016/2019/2022/2025
 - Some modules require **Administrator** privileges
-- Server-specific modules (Cluster, DHCP, DNS Server, etc.) require corresponding Windows Server roles
+- Server modules require corresponding Windows Server roles
 
 ## License
 
