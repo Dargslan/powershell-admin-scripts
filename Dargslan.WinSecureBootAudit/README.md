@@ -1,48 +1,62 @@
-# Dargslan.WinSecureBootAudit — 2026 Edition
+# Dargslan.WinSecureBootAudit
 
-> **Secure Boot and UEFI configuration audit toolkit — boot chain verification, DBX updates, boot policy, and firmware security assessment**
+Audit Windows Secure Boot, UEFI key store (PK / KEK / db / dbx), TPM 2.0 and BitLocker — and export a JSON or HTML compliance report.
 
-[![PowerShell Gallery](https://img.shields.io/badge/PowerShell%20Gallery-Dargslan.WinSecureBootAudit-blue)](https://www.powershellgallery.com/packages/Dargslan.WinSecureBootAudit)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![2026 Edition](https://img.shields.io/badge/Edition-2026-green.svg)](https://dargslan.com)
+Part of the [Dargslan Windows Admin Tools](https://dargslan.com) suite.
 
-Part of the [Dargslan Windows Admin Toolkit](https://dargslan.com) — 80 professional PowerShell modules for Windows sysadmins.
-
-## Installation
+## Install
 
 ```powershell
 Install-Module -Name Dargslan.WinSecureBootAudit -Scope CurrentUser
+Import-Module Dargslan.WinSecureBootAudit
 ```
 
-## Quick Start
+## Usage
 
 ```powershell
-Import-Module Dargslan.WinSecureBootAudit
-Get-SecureBootAudit
-Get-SecureBootAudit -Json
+# Quick on-screen status
+Get-DargslanSecureBootStatus
+
+# Full audit report (PSCustomObject)
+$r = Get-DargslanSecureBootAuditReport
+$r.Verdict   # PASS | WARN | FAIL
+$r.Score     # e.g. "4 / 5"
+
+# Same report as JSON
+Get-DargslanSecureBootAuditReport -Json
+
+# Export an HTML report you can email or upload
+Export-DargslanSecureBootAuditReport -Path C:\reports\secureboot.html
+Export-DargslanSecureBootAuditReport -Path C:\reports\secureboot.json -Format Json
+
+# Inspect just the UEFI key store
+Get-DargslanSecureBootKeys
 ```
 
-## Functions
+## What it checks
 
-### \`Get-SecureBootAudit\`
+| Check                                             | Required for PASS |
+|---------------------------------------------------|-------------------|
+| `Confirm-SecureBootUEFI` returns `True`           | yes               |
+| Platform Key (PK) present                         | yes               |
+| Forbidden signature database (dbx) > 1 KB         | yes               |
+| TPM 2.0 ready (enabled, activated, owned)         | yes               |
+| At least one BitLocker-protected volume           | yes               |
 
-Reports Secure Boot status, UEFI configuration, DBX revocation list, boot policy, and firmware security assessment.
+## Requires
 
-## Requirements
+- Windows 10 / 11 or Windows Server 2016+
+- PowerShell 5.1+
+- UEFI firmware (BIOS systems are reported as N/A)
+- Administrator rights for full TPM and BitLocker visibility
 
-- **PowerShell 5.1+** or **PowerShell 7+**
-- **Windows 10/11** or **Windows Server 2016+**
-- Some functions require **Administrator** privileges
+## Resources
 
-## More Dargslan Tools
-
-| Resource | Link |
-|----------|------|
-| Homepage | [dargslan.com](https://dargslan.com) |
-| Free Cheat Sheets | [dargslan.com/cheat-sheets](https://dargslan.com/cheat-sheets) |
-| eBooks | [dargslan.com/books](https://dargslan.com/books) |
-| PowerShell Gallery | [powershellgallery.com/profiles/Dargslan](https://www.powershellgallery.com/profiles/Dargslan) |
+- Full guide: <https://dargslan.com/blog/windows-secure-boot-audit-powershell-2026>
+- Free PDF cheat sheet: <https://dargslan.com/cheat-sheets/windows-secure-boot-audit-2026>
+- More PowerShell modules: <https://www.powershellgallery.com/profiles/Dargslan>
+- 210+ professional eBooks: <https://dargslan.com/books>
 
 ## License
 
-MIT License — (c) 2026 Dargslan — [dargslan.com](https://dargslan.com)
+MIT — see [LICENSE](https://github.com/Dargslan/powershell-admin-scripts/blob/main/LICENSE).
